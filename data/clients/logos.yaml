@@ -1,0 +1,21 @@
+images:
+- company: Verizon 
+  image: verizon.png
+- company: The Home Depot 
+  image: home-depot.png
+- company: Caterpillar 
+  image: caterpillar.png
+- company: Microsoft 
+  image: microsoft.png
+- company: Nationwide 
+  image: nationwide.png
+- company: Mary Kay 
+  image: mary-kay.png
+- company: Department of Education 
+  image: dept-of-education.png
+- company: Department of Homeland Security 
+  image: dept-of-homeland-security.png
+- company: Federal Aviation Administration 
+  image: federal-aviation-administration.png
+- company: The Library of Congress 
+  image: library-of-congress.png

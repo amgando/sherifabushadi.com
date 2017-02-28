@@ -1,0 +1,16 @@
+name: coaches program
+question: can students sustainably become teachers?
+summary: 55 member team with a six-figure budget
+
+year: 2013
+duration: 2 years
+image: coaches-program.png
+
+artifacts: 
+  - title: professional insights panel
+    type: vimeo
+    data: 133573143 
+  - title: made at dbc
+    type: url
+    data: http://madeatdbc.herokuapp.com
+

@@ -1,0 +1,38 @@
+
+{{ partial "header.html" . }}
+
+  <nav class="nav" id="top">
+    <div class="container">
+      <div class="nav-left"></div>
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <div class="nav-right nav-menu">
+        <a href="#home" class="nav-item is-tab is-active">home</a>
+      {{- range sort .Site.Params.Sections "weight" "asc" }}
+        {{- if .enabled }}
+        <a href="#{{ .title }}" class="nav-item is-tab">{{ .title }}</a>
+        {{- end }}
+      {{- end }}
+      </div>
+    </div>
+  </nav>
+
+  <a name="home"></a>
+  
+  {{ partial "hero.html" . -}}
+
+  {{- $sr := sort .Site.Params.Sections "weight" "asc" -}}
+
+  {{- $ctx := . -}}
+  {{- range $idx, $data := $sr -}}
+    {{- $template := $data.title | printf "sections/%s.html" -}}
+    {{- partial $template $ctx -}}
+  {{- end -}}
+
+  {{- partial "footer.html" . -}}
+
+</body>
+</html>

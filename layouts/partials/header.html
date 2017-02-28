@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ .Hugo.Generator }}
+  
+  <title>{{ .Site.Title }}</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="css/bulma.css">
+  <link rel="stylesheet" type="text/css" href="css/me.css">
+
+  <script defer type="text/javascript" src="js/bulma.js"></script>
+  <script defer type="text/javascript" src="js/fetch.js"></script>
+  <script defer type="text/javascript" src="js/me.js"></script>
+
+  {{ partial "header/seo.html" . }}
+</head>
+<body>

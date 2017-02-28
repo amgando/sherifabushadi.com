@@ -1,0 +1,54 @@
+{{- if isset .Site.Params.Sections "contact" }}
+{{- if .Site.Params.Sections.contact.enabled }}
+
+
+{{ with .Site.Params.Sections.contact}}
+<a name="{{ .title }}"></a>
+<section class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        <strong>{{ .title }}</strong>
+      </h1>
+      <h2 class="subtitle">
+        {{ .subtitle | safeHTML}}
+      </h2>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ $contact_map := (dict "email" "envelope-o" "address" "map-marker" "github" "github" "twitter" "twitter" "linkedin" "linkedin") }}
+
+{{ $contact := .Site.Params.sections.contact }}
+{{ $social := .Site.Params.social }}
+
+<section class="section">
+  <div class="container">
+    <div>
+    If you're interested in working with me to design, build or teach something, email is the best way to get in touch.  I'm always happy to meet new people and connect them with my network as appropriate.  
+    <br><br>
+    More than anything else, I'm interested in the intersection of software and education.
+    </div>
+    <div class="spacer"></div>
+    <div class="level has-text-centered box">
+      {{ range $key, $val := $contact_map }}
+      <div class="level-item">
+        <span class="icon is-small"><i class="fa fa-{{ $val }}"></i></span>
+        {{ if isset $contact $key }}
+        <span class="role-detail">{{ echoParam $contact $key }}</span>
+        {{ else }}
+        <span class="role-detail">
+          <a target="_new" href="http://{{ $key }}.com/{{ if eq $key "linkedin"}}in/{{end}}{{ echoParam $social $key }}">
+            {{ echoParam $social $key }}
+          </a>
+        </span>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}
+{{ end }}

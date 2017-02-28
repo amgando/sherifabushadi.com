@@ -1,0 +1,52 @@
+{{ if isset .Site.Params.Sections "courses" }}
+{{ if .Site.Params.Sections.courses.enabled }}
+{{ if gt (len .Site.Data.courses) 0 }}
+
+{{ with .Site.Params.Sections.courses}}
+<a name="{{ .title }}"></a>
+<section class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        <strong>{{ .title }}</strong>
+      </h1>
+      <h2 class="subtitle">
+        {{ .subtitle | safeHTML }}
+      </h2>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-multiline">
+
+    {{ range .Site.Data.courses }}
+    
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-2by1">
+              <img src="images/courses/{{ .image }}">
+            </figure>
+          </div>
+          <div class="card-content">
+            <p class="title">{{ .name }}</p>
+            <p class="subtitle">{{ .tagline }} </p>
+            <div class="spacer"></div>
+            <small>{{ .duration }} long, this course was created in {{ .year }} for {{ .audience }}</small>
+          </div>
+        </div>
+      </div>
+
+    {{ end }}
+
+    </div>
+  </div>
+
+</section>
+
+{{ end }}
+{{ end }}
+{{ end }}

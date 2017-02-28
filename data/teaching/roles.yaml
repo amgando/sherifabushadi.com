@@ -1,0 +1,65 @@
+details:
+- company: John's Hopkins University
+  title: Adjunct Professor
+  summary: Responsible for several semester-long courses including Intro to Visual Basic, Web Development Cold Fusion, Intro to Javascript and SQL for Databases.
+  details: 
+    - icon: calendar
+      data: 2001
+    - icon: clock-o
+      data: 1 year
+    - icon: map-marker
+      data: Baltimore, MD
+    - icon: users
+      data: 100+
+
+- company: Santeon
+  title: Lead Instructor & Consultant
+  summary: Responsible for course design and delivery to clients.
+  details: 
+    - icon: calendar
+      data: 2002
+    - icon: clock-o
+      data: 1 year
+    - icon: map-marker
+      data: Washington DC
+    - icon: users
+      data: 100+
+
+- company: K2
+  title: Lead Instructor & Training Manager
+  summary: Responsible for supporting course design and delivery for clients and partners across US and Canada
+  details: 
+    - icon: calendar
+      data: 2007
+    - icon: clock-o
+      data: 3 years
+    - icon: map-marker
+      data: US & Canada
+    - icon: users
+      data: 2000+
+
+- company: Dev Bootcamp
+  title: Senior Teacher
+  summary: Responsible for cohort leadership and teacher mentoring from orientation through Ruby and JavaScript curriculum.
+  details: 
+    - icon: calendar
+      data: 2012
+    - icon: clock-o
+      data: 4 years
+    - icon: map-marker
+      data: San Francisco, CA
+    - icon: users
+      data: 1500+
+
+- company: Large
+  title: Independent Consultant
+  summary: Responsible for the scoping, design and delivery of custom learning experiences for technology companies
+  details: 
+    - icon: calendar
+      data: 2016
+    - icon: clock-o
+      data: 1 year
+    - icon: map-marker
+      data: San Francisco, CA
+    - icon: users
+      data: 10+

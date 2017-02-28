@@ -1,0 +1,39 @@
+{{- if isset .Site.Params.Sections "teaching" -}}
+{{- if .Site.Params.Sections.teaching.enabled -}}
+
+
+{{ with .Site.Params.Sections.teaching}}
+<a name="{{ .title }}"></a>
+<section class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        <strong>{{ .title }}</strong>
+      </h1>
+      <h2 class="subtitle">
+        {{ .subtitle | safeHTML }}
+      </h2>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-6">
+        {{ range .Site.Data.teaching.roles.details }}
+          {{ partial "sections/teaching/teaching-role.html" . }}
+        {{ end }}
+      </div>      
+      <div class="column">
+        <div class="title">student feedback  <br class="is-hidden-tablet"> [2001 - 2016]</div>
+        <div class="spacer"></div>
+        <div id="feedback"></div>
+      </div>
+    </div>  
+  </div>
+</section>
+
+{{- end -}}
+{{- end -}}

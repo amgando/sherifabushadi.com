@@ -1,0 +1,15 @@
+
+<div class="notification is-dark dim">
+  <div class="title is-6">
+    <b>{{ .title }} {{ if .company }} <br class="is-hidden-tablet"> at {{ .company }} {{ end }}</b>
+  </div>
+  <div class="level is-mobile">    
+    {{ range $i, $d := .details }}
+    <div class="level-item {{ if eq $d.icon "map-marker" }}is-hidden-mobile{{ end }}">
+      <span class="icon is-small"><i class="fa fa-{{ $d.icon }}"></i></span>
+      <span class="role-detail">{{ $d.data }}</span>
+    </div>
+    {{ end }}
+  </div>
+  <div class="content">{{ .summary }}</div>
+</div>

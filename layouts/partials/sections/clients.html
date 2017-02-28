@@ -1,0 +1,40 @@
+{{ if isset .Site.Params.Sections "clients" }}
+{{ if .Site.Params.sections.clients.enabled }}
+{{ if gt (len .Site.Data.clients) 0 }}
+
+{{ with .Site.Params.Sections.clients }}
+<a name="{{ .title }}"></a>
+<section class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        <strong>{{ .title }}</strong>
+      </h1>
+      <h2 class="subtitle">
+        {{ .subtitle | safeHTML }}
+      </h2>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<section class="section">
+  <div class="container has-text-centered">
+    
+    <div class="columns is-multiline is-mobile">
+
+      {{ range .Site.Data.clients.logos.images }}
+      <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+        <img src="images/clients/{{ .image }}" alt="{{ .company }}">
+      </div>
+      {{ end }}
+
+    </div>
+
+  </div>
+
+</section>
+
+{{ end }}
+{{ end }}
+{{ end }}

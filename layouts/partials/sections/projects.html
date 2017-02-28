@@ -1,0 +1,66 @@
+{{ if isset .Site.Params.Sections "projects" }}
+{{ if .Site.Params.sections.projects.enabled }}
+{{ if gt (len .Site.Data.projects) 0 }}
+
+{{ with .Site.Params.Sections.projects}}
+<a name="{{ .title }}"></a>
+<section class="hero is-dark">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        <strong>{{ .title }}</strong>
+      </h1>
+      <h2 class="subtitle">
+        {{ .subtitle | safeHTML }}
+      </h2>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-7">
+        <h3 class="title is-4">project name</h3>
+        <h5 class="subtitle is-6">project key question</h5>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+        </div>
+      </div>
+      <div class="column is-4 is-offset-1">
+        <img src="http://placehold.it/400x300" class="box">
+      </div>
+    </div>
+    <hr class="is-hidden-tablet">
+    <div class="columns">
+      <div class="column is-7">
+        <h3 class="title is-4">project name</h3>
+        <h5 class="subtitle is-6">project key question</h5>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+        </div>
+      </div>
+      <div class="column is-4 is-offset-1">
+        <img src="http://placehold.it/400x300" class="box">
+      </div>
+    </div>
+    <hr class="is-hidden-tablet">
+    <div class="columns">
+      <div class="column is-7">
+        <h3 class="title is-4">project name</h3>
+        <h5 class="subtitle is-6">project key question</h5>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+        </div>
+      </div>
+      <div class="column is-4 is-offset-1">
+        <img src="http://placehold.it/400x300" class="box">
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
+{{ end }}
+{{ end }}

@@ -1,4 +1,6 @@
 images:
+- company: Stripe 
+  image: stripe.png
 - company: Verizon 
   image: verizon.png
 - company: The Home Depot 

@@ -10,7 +10,7 @@ details:
     - icon: map-marker
       data: Baltimore, MD
     - icon: users
-      data: 100+
+      data: 100+ students
 
 - company: Santeon
   title: Lead Instructor & Consultant
@@ -19,11 +19,11 @@ details:
     - icon: calendar
       data: 2002
     - icon: clock-o
-      data: 1 year
+      data: 2 years
     - icon: map-marker
       data: Washington DC
     - icon: users
-      data: 100+
+      data: 100+ students
 
 - company: K2
   title: Lead Instructor & Training Manager
@@ -36,7 +36,7 @@ details:
     - icon: map-marker
       data: US & Canada
     - icon: users
-      data: 2000+
+      data: 2000+ students
 
 - company: Dev Bootcamp
   title: Senior Teacher
@@ -49,17 +49,17 @@ details:
     - icon: map-marker
       data: San Francisco, CA
     - icon: users
-      data: 1500+
+      data: 1500+ students
 
 - company: Large
   title: Independent Consultant
   summary: Responsible for the scoping, design and delivery of custom learning experiences for technology companies
   details: 
     - icon: calendar
-      data: 2016
+      data: present
     - icon: clock-o
-      data: 1 year
+      data: 2 years
     - icon: map-marker
       data: San Francisco, CA
     - icon: users
-      data: 10+
+      data: your team?

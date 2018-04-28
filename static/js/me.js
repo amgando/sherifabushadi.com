@@ -10,11 +10,12 @@
   _.templateSettings.interpolate = /{{([\s\S]+?)}}/g;
   var templatize = _.template(`
     <div class="columns">
-      <div class="column is-1 dim icon">
+      <div class="column is-1 icon">
         <i class="fa fa-quote-left"></i>
       </div>
       <div class="column is-10">
-        <strong>{{ role.toLowerCase() }} at {{ qualifier }}</strong><br> {{ quote }}
+        {{ quote }}
+  
       </div>
     </div>
   `)
@@ -27,7 +28,7 @@
     })
     .then(function(data){
       var html = ''
-      sample = _.sampleSize(data.feedback, 7)
+      sample = _.sampleSize(data.feedback, 10)
       sample.forEach(function(feedback){
         html += templatize(feedback)
       })

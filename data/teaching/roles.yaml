@@ -1,12 +1,12 @@
 details:
 - company: John's Hopkins University
   title: Adjunct Professor
-  summary: Responsible for several semester-long courses including Intro to Visual Basic, Web Development Cold Fusion, Intro to Javascript and SQL for Databases.
+  summary: Delivery of several semester-long courses covering multiple technologies like Visual Basic (desktop), Cold Fusion (web), Javascript and SQL.
   details: 
     - icon: calendar
-      data: 2001
-    - icon: clock-o
-      data: 1 year
+      data: 2001-2002
+    - icon: graduation-cap
+      data: school
     - icon: map-marker
       data: Baltimore, MD
     - icon: users
@@ -14,12 +14,12 @@ details:
 
 - company: Santeon
   title: Lead Instructor & Consultant
-  summary: Responsible for course design and delivery to clients.
+  summary: Course design and delivery to clients in the DC metro area
   details: 
     - icon: calendar
-      data: 2002
-    - icon: clock-o
-      data: 2 years
+      data: 2002-2004
+    - icon: briefcase
+      data: 3 clients
     - icon: map-marker
       data: Washington DC
     - icon: users
@@ -27,38 +27,38 @@ details:
 
 - company: K2
   title: Lead Instructor & Training Manager
-  summary: Responsible for supporting course design and delivery for clients and partners across US and Canada
+  summary: Course design and delivery for clients and partners across US and Canada
   details: 
     - icon: calendar
-      data: 2007
-    - icon: clock-o
-      data: 3 years
+      data: 2007-2010
+    - icon: briefcase
+      data: 150+ clients
     - icon: map-marker
       data: US & Canada
     - icon: users
       data: 2000+ students
 
 - company: Dev Bootcamp
-  title: Senior Teacher
-  summary: Responsible for cohort leadership and teacher mentoring from orientation through Ruby and JavaScript curriculum.
+  title: Lead Instructor, Campus & New Programs Director
+  summary: Cohort leadership, teacher mentorship and new program design from orientation to graduation in Ruby and Javascript
   details: 
     - icon: calendar
-      data: 2012
-    - icon: clock-o
-      data: 4 years
+      data: 2012-2016
+    - icon: graduation-cap
+      data: school
     - icon: map-marker
       data: San Francisco, CA
     - icon: users
       data: 1500+ students
 
-- company: Large
-  title: Independent Consultant
-  summary: Responsible for the scoping, design and delivery of custom learning experiences for technology companies
+- company: Curated Sequence
+  title: Founder
+  summary: Scoping, design and delivery of high performance learning experiences for companies, teams and individuals who want to do more than just keep up
   details: 
     - icon: calendar
       data: present
-    - icon: clock-o
-      data: 2 years
+    - icon: briefcase
+      data: 7 clients
     - icon: map-marker
       data: San Francisco, CA
     - icon: users

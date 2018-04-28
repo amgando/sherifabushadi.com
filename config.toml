@@ -16,8 +16,8 @@ baseurl = "http://sherifabushadi.com"
     enabled = true
     title = "clients"
     subtitle = '''
-    Working on tough problems with a motivated team is so much fun, especially when
-    the quietest person in the room surprises us with an amazing idea.
+    Working on tough problems with motivated teams is great fun, especially when
+    the quietest person in the room surprises us.
     '''
 
 [params.sections.teaching]
@@ -25,7 +25,7 @@ baseurl = "http://sherifabushadi.com"
     enabled = true
     title = "teaching"
     subtitle = '''
-    From afar, the forest seems like one thing we approach. On arriving, many.
+    Approaching from afar, the forest appears as one thing. On arriving, many.
     '''
 
 [params.sections.courses]
@@ -33,17 +33,16 @@ baseurl = "http://sherifabushadi.com"
     enabled = true
     title = "courses"
     subtitle = '''
-    When designing a learning experience, I want students to experience
-    nothing less than personal transformation.  When learning something new myself, 
-    I always look for the ticklish bits, the ideas least considered, and the 
-    parts most likely to lead to a rush of late night learning fever.
+    I would like my students to experience nothing less than personal transformation, to break through to a more capable version of themselves
     '''
 
 [params.sections.contact]
     weight=100
     enabled=true
     title="contact"
-    subtitle=""
+    subtitle='''
+    I'm most interested in the intersection of software and education. Let's play!
+    '''
     email="sherif | amgando.org"
     phone="202.299.4405"
     address="San Francisco, CA"

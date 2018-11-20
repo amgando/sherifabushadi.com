@@ -4,6 +4,6 @@ set -e
 
 hugo && cd public
 
-echo sherifabushadi.com > CNAME
+echo https://sherifabushadi.com > CNAME
 
 surge .

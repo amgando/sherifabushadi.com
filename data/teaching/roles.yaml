@@ -51,28 +51,28 @@ details:
     - icon: users
       data: 1500+ students
 
-  - company: NEAR Foundation
-    title: Head of Education
-    summary: Scoping, design and delivery of high performance learning experiences for the NEAR ecosystem.
-    details:
-      - icon: calendar
-        data: present
-      - icon: briefcase
-        data: layer 1 crypto
-      - icon: map-marker
-        data: Istanbul, Turkey
-      - icon: users
-        data: 10,000+ students
+- company: NEAR Foundation
+  title: Head of Education
+  summary: Scoping, design and delivery of high performance learning experiences for the NEAR ecosystem.
+  details:
+    - icon: calendar
+      data: present
+    - icon: briefcase
+      data: layer 1 crypto
+    - icon: map-marker
+      data: Istanbul, Turkey
+    - icon: users
+      data: 10,000+ students
 
-  - company: Curated Sequence
-    title: Owner
-    summary: Scoping, design and delivery of high performance learning experiences for companies, teams and individuals who want to do more than just keep up
-    details:
-      - icon: calendar
-        data: present
-      - icon: briefcase
-        data: sherif | amgando.org
-      - icon: map-marker
-        data: local
-      - icon: users
-        data: your team?
+- company: Curated Sequence
+  title: Owner
+  summary: Scoping, design and delivery of high performance learning experiences for companies, teams and individuals who want to do more than just keep up
+  details:
+    - icon: calendar
+      data: present
+    - icon: briefcase
+      data: sherif | amgando.org
+    - icon: map-marker
+      data: local
+    - icon: users
+      data: your team?

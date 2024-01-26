@@ -56,7 +56,7 @@ details:
   summary: Scoping, design and delivery of high performance learning experiences for the NEAR ecosystem.
   details:
     - icon: calendar
-      data: present
+      data: 2019-2022
     - icon: briefcase
       data: layer 1 crypto
     - icon: map-marker
@@ -64,14 +64,14 @@ details:
     - icon: users
       data: 10,000+ students
 
-- company: Curated Sequence
+- company: The Talent Lab
   title: Owner
-  summary: Scoping, design and delivery of high performance learning experiences for companies, teams and individuals who want to do more than just keep up
+  summary: High performance learning experiences for companies, teams and individuals who want to do more than just keep up
   details:
     - icon: calendar
       data: present
     - icon: briefcase
-      data: sherif | amgando.org
+      data: sherif | ourtalentlab.com
     - icon: map-marker
       data: local
     - icon: users

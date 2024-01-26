@@ -65,14 +65,14 @@ details:
       data: 10,000+ students
 
 - company: The Talent Lab
-  title: Owner
+  title: Principal Consultant
   summary: High performance learning experiences for companies, teams and individuals who want to do more than just keep up
   details:
     - icon: calendar
       data: present
     - icon: briefcase
-      data: sherif | ourtalentlab.com
+      data: thetalentlab.nl
     - icon: map-marker
-      data: local
+      data: Haarlem, Netherlands
     - icon: users
-      data: your team?
+      data: you?

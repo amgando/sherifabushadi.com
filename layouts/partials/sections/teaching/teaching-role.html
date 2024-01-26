@@ -1,7 +1,7 @@
 
 <div class="notification is-dark dim">
   <div class="title is-6">
-    <b>{{ .title }} {{ if .company }} <br class="is-hidden-tablet"> at {{ .company }} {{ end }}</b>
+    <b>{{ .title }} {{ if .company }}<br class="is-hidden-tablet">&nbsp;at {{ .company }} {{ end }}</b>
   </div>
   <div class="level is-mobile">    
     {{ range $i, $d := .details }}
